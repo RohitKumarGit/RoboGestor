@@ -165,5 +165,3 @@ class RoboGestor:
         Execute a shell command on the Android device and return the output as a list of lines.
         """
         return self.phone.shell(cmd).output.split("\n")
-robot = RoboGestor()
-robot.unlock_phone()
