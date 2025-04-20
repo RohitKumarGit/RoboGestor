@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='robo-gestor',  # Replace with your package name
-    version='0.1.0',  # Update with the current version
+    version='0.1.1',  # Update with the current version
     packages=find_packages(),  # Automatically discovers packages in the directory
     description='A Python automation utility for interacting with Android devices via uiautomator2.',
     long_description=open('README.md').read(),
